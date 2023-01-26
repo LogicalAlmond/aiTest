@@ -39,3 +39,5 @@ result, model_outputs, wrong_predictions = model.eval_model(eval_df)
 
 # Make predictions with the model
 predictions, raw_outputs = model.predict(["Sam was a king"])
+
+print(predictions)
